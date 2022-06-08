@@ -15,5 +15,13 @@
 }
 #main_nav ul li {
     float: left;
-    width: 50px;
+    width: 10%;
+}
+#main_nav ul li a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+header {
+    padding: 15px;
 }
