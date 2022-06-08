@@ -14,7 +14,7 @@
     list-style-type: none;
 }
 #main_nav ul li {
-    float: left;
+    float: right;
     width: 10%;
 }
 #main_nav ul li a {
