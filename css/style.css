@@ -6,7 +6,10 @@
 .myClear {
     clear: both;
 }
-#main_nav{
+.navbar-nav{
+    margin-left: auto;
+}
+/* #main_nav{
     width: 100vw;
     top: 100px;
 }
@@ -21,6 +24,31 @@
     display: block;
     text-align: center;
     text-decoration: none;
+} */
+nav .navbar-nav .nav-item .nav-link {
+    position: relative;
+    padding-bottom: 0.5rem;
+}
+nav .navbar-nav .nav-item .nav-link:hover{
+    transition: all 0.25s ease-out;
+    color:#DC143C;
+}
+nav .navbar-nav .nav-item .nav-link::after {
+    position: absolute;
+    content: '';
+    background-color:#DC143C;
+    left:0;
+    bottom:0;
+    width:0;
+    height: 3px;
+    transition: all 0.25s;
+}
+nav .navbar-nav .nav-item .nav-link:hover::after {
+    width:100%;
+}
+
+#nav-div .nav-item{
+    padding-right: 20px;
 }
 header {
     padding: 15px;
