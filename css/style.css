@@ -6,25 +6,7 @@
 .myClear {
     clear: both;
 }
-.navbar-nav{
-    margin-left: auto;
-}
-/* #main_nav{
-    width: 100vw;
-    top: 100px;
-}
-#main_nav ul {
-    list-style-type: none;
-}
-#main_nav ul li {
-    float: right;
-    width: 10%;
-}
-#main_nav ul li a {
-    display: block;
-    text-align: center;
-    text-decoration: none;
-} */
+
 nav .navbar-nav .nav-item .nav-link {
     position: relative;
     padding-bottom: 0.5rem;
@@ -51,5 +33,5 @@ nav .navbar-nav .nav-item .nav-link:hover::after {
     padding-right: 20px;
 }
 header {
-    padding: 15px;
+    padding: 20px;
 }
