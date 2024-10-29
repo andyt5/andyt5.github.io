@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: whitesmoke;
 }
 .myClear {
     clear: both;
@@ -10,6 +11,7 @@
 nav .navbar-nav .nav-item .nav-link {
     position: relative;
     padding-bottom: 0.5rem;
+    color: whitesmoke;
 }
 nav .navbar-nav .nav-item .nav-link:hover{
     transition: all 0.25s ease-out;
@@ -34,4 +36,12 @@ nav .navbar-nav .nav-item .nav-link:hover::after {
 }
 header {
     padding: 20px;
+}
+
+#btn-backToTop{
+    border-radius: 30px;
+    position: fixed;
+    bottom: 25px;
+    right: 35px;
+    display: none;
 }
