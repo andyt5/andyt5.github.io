@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+NL:wght@100..400&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -7,7 +9,11 @@
 .myClear {
     clear: both;
 }
-
+#navbarBrandName {
+    font-family: 'Playwrite NL';
+    font-weight: 100;
+    transform: rotate(-8deg);
+}
 nav .navbar-nav .nav-item .nav-link {
     position: relative;
     padding-bottom: 0.5rem;
