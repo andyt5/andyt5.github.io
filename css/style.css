@@ -6,6 +6,9 @@
     box-sizing: border-box;
     color: whitesmoke;
 }
+body{
+    background-color: black;
+}
 .myClear {
     clear: both;
 }
@@ -40,9 +43,15 @@ nav .navbar-nav .nav-item .nav-link:hover::after {
 #nav-div .nav-item{
     padding-right: 20px;
 }
-header {
-    padding: 20px;
+#headerLanding {
+    height: 100vh;
 }
+.square-box{
+    min-height: 75vh;
+}
+/*
+#373E38
+*/
 
 #btn-backToTop{
     border-radius: 30px;
