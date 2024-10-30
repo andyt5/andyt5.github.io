@@ -43,11 +43,12 @@ nav .navbar-nav .nav-item .nav-link:hover::after {
 #nav-div .nav-item{
     padding-right: 20px;
 }
-#headerLanding {
+.divLanding {
     height: 100vh;
+    padding-bottom: 20px;
 }
 .square-box{
-    min-height: 75vh;
+    min-height: 60vh;
 }
 /*
 #373E38
