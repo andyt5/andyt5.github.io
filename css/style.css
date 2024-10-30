@@ -80,3 +80,8 @@ nav .navbar-nav .nav-item .nav-link:hover::after {
     animation-fill-mode: forwards;
 
 }
+
+.languageImages{
+    max-width: 3rem;
+    max-height: 4rem;
+}
