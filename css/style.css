@@ -53,11 +53,26 @@ nav .navbar-nav .nav-item .nav-link:hover::after {
 /*
 #373E38
 */
-
 #btn-backToTop{
     border-radius: 30px;
     position: fixed;
     bottom: 25px;
     right: 35px;
     display: none;
+    
+}
+
+@keyframes slide-in {
+    from {
+        transform: translateX(-100%);
+    }
+  
+    to {
+        transform: translateX(0%);
+    }
+}
+
+.headerTransition{
+    animation: 2s ease-in-out slide-in;
+
 }
