@@ -91,5 +91,5 @@ nav .navbar-nav .nav-item .nav-link:hover::after {
 }
 
 .darkenImage{
-   filter: brightness(75%);
+   filter: brightness(80%);
 }
