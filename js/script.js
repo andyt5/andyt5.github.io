@@ -22,11 +22,12 @@ window.onload = function(){
         document.documentElement.scrollTop = 0;
     }
 
-    const myCarouselElement = document.querySelector('#myProjects')
+    /*const myCarouselElement = document.querySelector('#myProjects')
 
     const projectCarousel = new bootstrap.Carousel(myCarouselElement, {
     interval: 2000,
     touch: true,
     cycle: true
 })
+    */
 }
