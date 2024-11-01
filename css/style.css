@@ -85,3 +85,11 @@ nav .navbar-nav .nav-item .nav-link:hover::after {
     max-width: 3rem;
     max-height: 4rem;
 }
+
+.carouselColor{
+    background-color: brown;
+}
+
+.darkenImage{
+   filter: brightness(75%);
+}
